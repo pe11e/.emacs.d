@@ -1,0 +1,14 @@
+auto-save-list
+elpa
+server
+*~
+*.dat
+local.el
+.mc-lists.el
+eshell
+ido.last
+places
+smex-items
+.cask
+bookmarks
+projectile-bookmarks.eld
