@@ -7,7 +7,7 @@
 (defvar my-keys-minor-mode-map (make-keymap) "my keys")
 
 (ido-mode 1)
-(linum-mode)
+(linum-mode 1)
 (ido-everywhere 1)
 (flx-ido-mode 1)
 (setq ido-use-faces nil)
