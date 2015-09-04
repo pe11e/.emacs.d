@@ -21,6 +21,7 @@
 (global-visual-line-mode t)
 (define-key my-keys-minor-mode-map (kbd "C-o") 'er/expand-region)
 (define-key my-keys-minor-mode-map (kbd "C-c SPC") 'ace-jump-mode)
+(define-key my-keys-minor-mode-map (kbd "M-h") 'helm-projectile)
 
 ;;(define-key dired-mode-map (kbd "f") 'dired-find-alternate-file)
 ;;(define-key dired-mode-map (kbd "^") (lambda ()
@@ -35,7 +36,7 @@
  (scroll-bar-mode -1)
  (tool-bar-mode -1))
 
-(load-theme 'spacegray t)
+(load-theme 'niflheim t)
 
 (delete-selection-mode t)
 (show-paren-mode t)
@@ -43,6 +44,7 @@
 (setq make-backup-file nil)
 (setq auto-save-default nil)
 (setq inhibit-startup-message t)
+
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 2)
 

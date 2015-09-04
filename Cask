@@ -2,7 +2,11 @@
 (source melpa)
 
 (depends-on "cask")
+
+;;Theme
 (depends-on "spacegray-theme")
+(depends-on "niflheim-theme")
+
 (depends-on "expand-region")
 (depends-on "ace-jump-mode")
 (depends-on "auto-complete")
