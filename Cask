@@ -22,3 +22,6 @@
 (depends-on "drupal-mode")
 (depends-on "smooth-scrolling")
 (depends-on "neotree")
+(depends-on "visual-fill-column")
+(depends-on "org-trello")
+(depends-on "emmet-mode")

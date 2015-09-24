@@ -1,0 +1,5 @@
+define(function ($1) {
+  'use strict'
+
+  $2
+});
