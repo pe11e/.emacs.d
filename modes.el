@@ -16,9 +16,11 @@
 (electric-indent-mode t)
 (ac-config-default)
 (global-visual-line-mode t)
+(global-linum-mode t)
 (yas-global-mode t)
 (emmet-mode t)
 (projectile-global-mode t)
+(electric-pair-mode 1)
 
 (when (window-system)
  (scroll-bar-mode -1)

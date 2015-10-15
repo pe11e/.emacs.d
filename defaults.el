@@ -1,26 +1,42 @@
 ;; Defaults
 (set-frame-font "Source Code Pro for Powerline-14")
-(setq org-src-fontify-natively t)
-(load-theme 'niflheim t)
+(load-theme 'spacegray t)
 
 ;; disable auto-save and auto-backup
 (setq auto-save-default nil)
-(setq make-backup-files nil)
+(setq make-backup-files t)
 
-;; store all backup and autosave files in the tmp dir
-;;(setq backup-directory-alist '(("~/.temp"))
-;;(setq auto-save-file-name-transforms '(("~/.temp")))
+(setq version-control t)
+(setq backup-directory-alist (quote ((".*" . "~/.emacs_backups/"))))
 
 (setq inhibit-startup-message t)
-(setq-default indent-tabs-mode nil)
+(setq indent-tabs-mode nil)
+
+;; line and column numbers
+(setq truncate-lines t)
+
+;; Org mode
+(setq org-log-done 'time)
+(setq org-src-fontify-natively t)
 
 ;; Indentation
-(setq-default tab-width 2)
+(setq tab-width 2)
 (setq css-indent-offset 2)
 
 (setq mac-option-modifier 'none)
 (setq ns-function-modifier 'meta)
 (fset 'yes-or-no-p 'y-or-n-p)
+
+;; Neotree
+(setq neo-theme 'nerd)
+(custom-set-faces
+ '(neo-banner-face ((t . (:inherit shadow))) t)
+ '(neo-header-face ((t . (:inherit shadow))) t)
+ '(neo-root-dir-face ((t . (:inherit link-visited :underline nil))) t)
+ '(neo-dir-link-face ((t . (:inherit dired-directory))) t)
+ '(neo-file-link-face ((t . (:inherit default))) t)
+ '(neo-button-face ((t . (:inherit dired-directory))) t)
+ '(neo-expand-btn-face ((t . (:inherit button))) t))
 
 (put 'dired-find-alternate-file 'disabled nil)
 

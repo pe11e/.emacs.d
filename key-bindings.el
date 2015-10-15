@@ -3,6 +3,7 @@
 (define-key my-keys-minor-mode-map (kbd "C-o") 'er/expand-region)
 (define-key my-keys-minor-mode-map (kbd "C-c SPC") 'ace-jump-mode)
 (define-key my-keys-minor-mode-map (kbd "M-h") 'helm-projectile)
+(define-key my-keys-minor-mode-map (kbd "M-t") 'toggle-truncate-lines)
 
 (define-key my-keys-minor-mode-map (kbd "M-<up>") 'move-text-up)
 (define-key my-keys-minor-mode-map (kbd "M-<down>") 'move-text-down)

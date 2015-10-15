@@ -6,6 +6,8 @@
 ;;Theme
 (depends-on "spacegray-theme")
 (depends-on "niflheim-theme")
+(depends-on "zenburn-theme")
+(depends-on "solarized-theme")
 
 (depends-on "expand-region")
 (depends-on "ace-jump-mode")
@@ -25,3 +27,4 @@
 (depends-on "visual-fill-column")
 (depends-on "org-trello")
 (depends-on "emmet-mode")
+(depends-on "move-text")
