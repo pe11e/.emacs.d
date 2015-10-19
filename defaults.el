@@ -2,7 +2,7 @@
 (set-frame-font "Source Code Pro for Powerline-14")
 (load-theme 'spacegray t)
 
-;; disable auto-save and auto-backup
+;; Disable auto-save and auto-backup
 (setq auto-save-default nil)
 (setq make-backup-files t)
 
@@ -12,7 +12,7 @@
 (setq inhibit-startup-message t)
 (setq indent-tabs-mode nil)
 
-;; line and column numbers
+;; Line and column numbers
 (setq truncate-lines t)
 
 ;; Org mode
@@ -22,6 +22,10 @@
 ;; Indentation
 (setq tab-width 2)
 (setq css-indent-offset 2)
+(custom-set-variables
+ '(js-indent-level 2)
+ '(js2-basic-offset 2)
+ '(js2-bounce-indent-p t))
 
 (setq mac-option-modifier 'none)
 (setq ns-function-modifier 'meta)
