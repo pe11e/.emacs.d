@@ -1,0 +1,10 @@
+require 'minitest/spec'
+require 'minitest/autorun'
+require 'byebug'
+require_relative '../lib/$1.rb'
+
+class $2 < Minitest::Test
+  def setup
+    $3
+  end
+end
