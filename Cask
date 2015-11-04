@@ -5,10 +5,10 @@
 (depends-on "cask")
 
 ;;Theme
-(depends-on "spacegray-theme")
-(depends-on "niflheim-theme")
-(depends-on "zenburn-theme")
-(depends-on "solarized-theme")
+;;(depends-on "spacegray-theme")
+;;(depends-on "niflheim-theme")
+(depends-on "color-theme-solarized")
+;;(depends-on "darcula-theme")
 
 ;;Packages
 (depends-on "ace-jump-mode")

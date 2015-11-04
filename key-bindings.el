@@ -17,6 +17,7 @@
 
 ;; Magit
 (global-set-key (kbd "C-x g") 'magit-status)
+;;(define-key magit-status-mode-map (kbd "q") 'magit-quit-session)
 
 ;; Org mode
 ;;(define-key org-mode (kbd "S-M-<enter>") 'org-insert-todo-heading)

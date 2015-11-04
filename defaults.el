@@ -1,6 +1,6 @@
 ;; Defaults
-(set-frame-font "Source Code Pro for Powerline-14")
-(load-theme 'spacegray t)
+(set-frame-font "Source Code Pro for Powerline-16")
+(load-theme 'solarized-dark t)
 
 ;; Disable auto-save and auto-backup
 (setq auto-save-default nil)
