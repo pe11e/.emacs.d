@@ -31,3 +31,4 @@
 (depends-on "yasnippet")
 (depends-on "visual-fill-column")
 (depends-on "web-mode")
+(depends-on "multiple-cursors")

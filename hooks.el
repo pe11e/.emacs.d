@@ -16,4 +16,7 @@
             (setq css-indent-offset 2)
             (setq indent-tabs-mode nil)))
 
+(add-hook 'web-mode-hook  'my-web-mode-hook)
+(add-hook 'before-save-hook 'untabify-on-save)
+
 (provide 'hooks)

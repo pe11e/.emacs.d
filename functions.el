@@ -18,8 +18,6 @@
   (setq web-mode-css-indent-offset 2)
   (setq web-mode-code-indent-offset 2))
 
-(add-hook 'web-mode-hook  'my-web-mode-hook)
-
 (defadvice magit-status (around magit-fullscreen activate)
   "Make magit-status run alone in a frame."
   (window-configuration-to-register :magit-fullscreen)
@@ -31,5 +29,10 @@
   (interactive)
   (kill-buffer)
   (jump-to-register :magit-fullscreen))
+
+(defun untabify-on-save ()
+  "Untabify file on save"
+  (untabify (point-min) (point-max)))
+
 
 (provide 'functions)
